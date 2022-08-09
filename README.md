@@ -1,5 +1,3 @@
-# STRINGBOT
-
 # STRING SEASON BOT
 
 - You Can Help To Generate String Season
