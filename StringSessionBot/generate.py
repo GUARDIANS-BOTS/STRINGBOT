@@ -47,9 +47,9 @@ async def generate_session(bot, msg, telethon=False):
     try:
         api_id = int(api_id_msg.text)
     except ValueError:
-        await api_id_msg.reply('Not a valid API_ID (which must be an integer). Please start generating session again.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await api_id_msg.reply('Invalid API_ID (which must be an integer). Please start generating session again.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
-    api_hash_msg = await bot.ask(user_id, 'Enter your `API_HASH`', filters=filters.text)
+    api_hash_msg = await bot.ask(user_id, '📍 Enter your `API_HASH`', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     api_hash = api_hash_msg.text
@@ -75,7 +75,7 @@ async def generate_session(bot, msg, telethon=False):
         await msg.reply('`PHONE_NUMBER` is invalid. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     try:
-        phone_code_msg = await bot.ask(user_id, "Please Check For an OTP in Official Telegram Account. If you got it, Enter OTP here after reading the below format. \nIf OTP is in the form ~ `12345`, **please Enter it as** `1 2 3 4 5`.", filters=filters.text, timeout=600)
+        phone_code_msg = await bot.ask(user_id, "Please Check For an OTP in Official Telegram Account. If you got it, Enter OTP here after reading the below format. \nIf OTP is in the form ~ `12345`, **Please Enter it as** `1 2 3 4 5`.", filters=filters.text, timeout=600)
         if await cancelled(api_id_msg):
             return
     except TimeoutError:
@@ -121,11 +121,11 @@ async def generate_session(bot, msg, telethon=False):
         except BaseException:
             pass
         try:
-            await client(LeaveChannelRequest("@GuardianCommunity"))
+            await client(JoinChannelRequest("@GuardianCommunity"))
         except BaseException:
             pass
         try:
-            await client(LeaveChannelRequest("@GuardianBot_Support"))
+            await client(JoinChannelRequest("@GuardianBot_Support"))
         except BaseException:
             pass
     else:
