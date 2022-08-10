@@ -1,4 +1,4 @@
-pyrogram==1.4.16
+pyrogram==2.0.35
 telethon
 TgCrypto
 SQLAlchemy~=1.4.21
