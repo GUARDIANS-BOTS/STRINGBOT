@@ -18,4 +18,4 @@
 - 2. Click On Below Button
 - 3. Put All Variables
 
-- [![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+ [![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
