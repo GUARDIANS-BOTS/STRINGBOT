@@ -8,29 +8,29 @@ Hey {}
 
 Welcome to {}
 
-You Can Use Me to Generate Pyrogram and Tlethon String Season. Use The Below Button to know more!
+🔥 You Can Use This bot to Generate Pyrogram and Telethon String Season. Use The Below Button to know more!
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("⚜ Start To Generate String ⚜", callback_data="generate")],
+        [InlineKeyboardButton("🔰 Start To Generate String 🔰", callback_data="generate")],
         [InlineKeyboardButton(text=" Back ", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start To Generate String 🔥", callback_data="generate")]
+        [InlineKeyboardButton("🔰 Start To Generate String 🔰", callback_data="generate")]
     ]
 
     support_button = [
         [InlineKeyboardButton("⚜ Support ⚜", url="https://t.me/GuardianSupport_XD")]
     ]
     channels_button = [
-        [InlineKeyboardButton("⚜ Our Channel & Bots ⚜", url="https://t.me/Team_Guardians")]
+        [InlineKeyboardButton("✅ Our Channels & Bots ✅", url="https://t.me/Team_Guardians")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start To Generate String 🔥", callback_data="generate")],
+        [InlineKeyboardButton("🔰 Start To Generate String 🔰", callback_data="generate")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton(" About", callback_data="about")
@@ -39,7 +39,7 @@ You Can Use Me to Generate Pyrogram and Tlethon String Season. Use The Below But
             InlineKeyboardButton("🇮🇳 Bot Owner 🇮🇳", url="https://t.me/DinoGuardian"),
             InlineKeyboardButton("⚜ Support ⚜", url="https://t.me/GuardianSupport_XD")
         ],
-        [InlineKeyboardButton("⚜ Our Channel & Bots ⚜", url="https://t.me/Team_Guardians")],
+        [InlineKeyboardButton("✅ Our Channels & Bots ✅", url="https://t.me/Team_Guardians")],
     ]
         
 
