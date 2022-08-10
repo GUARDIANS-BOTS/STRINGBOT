@@ -1,6 +1,6 @@
 pyrogram==2.0.35
 telethon
 TgCrypto
-SQLAlchemy~=1.4.21
+SQLAlchemy~=1.4.40
 psycopg2
 pyromod~=1.5
