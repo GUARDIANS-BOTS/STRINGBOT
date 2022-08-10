@@ -39,7 +39,7 @@ You Can Use Me to Generate Pyrogram and Tlethon String Season. Use The Below But
             InlineKeyboardButton("🇮🇳 Bot Owner 🇮🇳", url="https://t.me/DinoGuardian"),
             InlineKeyboardButton("⚜ Support ⚜", url="https://t.me/GuardianSupport_XD")
         ],
-        [InlineKeyboardButton("⚜ Our Channel & Bots ⚜", url="https://t.me/Team_Guardians")]
+        [InlineKeyboardButton("⚜ Our Channel & Bots ⚜", url="https://t.me/Team_Guardians")],
     ]
         
 
